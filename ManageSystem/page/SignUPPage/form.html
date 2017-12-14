@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Join Us</title>
+    <script src="CheckForm.js"></script>
+    <link rel="stylesheet" type="text/css" href="form.css">
+</head>
+
+<body>
+    <div role="main">
+        <div class="setup">
+            <div class="setup-header">
+                <h1>Join Us</h1>
+                <p class="lead">Just sign up your username Email Password Today i Will fill this form html and try to fill Form Validation </p>
+                <!--TODO 完成登录界面 -->
+                <!--TODO 完成表单验证 -->
+            </div>
+            <fieldset class="setup-main">
+                <legend style="font-size: 30px;">Create your personal account</legend>
+                <form id="loginForm" accept-charset="UTF-8" autocomplete="off" class="signup-form" onsubmit="return vilidate_form()">
+                    <dl>
+                        <dt class="input-label">
+                            <label class="form-lable" for="user[login]">Username</label>
+                        </dt>
+                        <dd>
+                            <input type="text" name="user[login]" id="user[login]" class="input-block" placeholder="Pick a username" onchange="validate_username()" autofocus>
+                            <p class='note' id="loginnote">This will be your username. You can add the name of your organization later.</p>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt class="input-label">
+                            <label class="form-lable" for="user[email]">Email</label>
+                        </dt>
+                        <dd>
+                            <input type="text" name="user[email]" id="user[email]" class="input-block" onchange="validate_email()" placeholder="you@example.com">
+                            <p class="note" id="emailnote"></p>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt class="input-label">
+                            <label class="form-lable" for="user[password]">Password</label>
+                        </dt>
+                        <dd>
+                            <input type="password" name="user[password]" id="user[password]" class="input-block" onchange="validate_password()" placeholder="Create a password">
+                            <input type="checkbox" name="showHidePwd" onchange="showhide_password(this)">
+                            <p class="note" id="passwordnote">Use at least one letter, one numeral, and seven characters.</p>
+                        </dd>
+                    </dl>
+                    <input type="submit" value="Sign Up">
+                </form>
+            </fieldset>
+        </div>
+    </div>
+</body>
+
+
+</html>

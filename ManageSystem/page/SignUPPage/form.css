@@ -1,0 +1,81 @@
+.setup{
+    width:750px;
+    padding-top:30px;
+    margin:0 auto;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue",Helvetica;
+    font-size:14px;
+
+}
+.setup-header h1{
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 45px;
+        font-weight: normal;
+        line-height: 1.1;
+        letter-spacing: -1px;
+    }
+
+  .setup-header .lead{
+      margin-top: 2px;
+      margin-bottom: 0;
+      font-size: 21px;
+      font-weight:400;
+      color: #586069;
+  }
+
+  .setup-main{
+      float: left;
+      width:600px;
+      margin-left:30px;
+      margin-top: 20px;
+  }
+
+  .signup-form{
+      font-family: Monaco;
+      display: block;
+  }
+
+  .form-group{
+
+      font-size: 16px;
+  }
+
+.form-lable{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.input-block{
+    width: 80%;
+    height: 30px;
+    margin-top: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px #888888 inset;
+    padding-left: 10px;
+    color: #64604a;
+}
+
+::-webkit-input-placeholder{
+    font-family: Monaco;
+    font-size: 16px;
+    padding-left: 30px;
+}
+
+
+.note{
+    font-family: "Helvetica Neue", Helvetica;
+    margin-top: 5px;
+    margin-bottom: -5px;
+    width: 90%;
+    color: #5d594d;
+    word-spacing: -1px;
+}
+
+.note .modify{
+    color: #c94350;
+}
+
+.note .seccess{
+    color: #2bb616;
+}
